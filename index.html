@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+    <Head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale= 1.0">
+        <title>Booki - Find your dream holiday</title>
+        <link rel="stylesheet" type="text/css" href="Page_Resources/css/style.css">
+        <script src="https://kit.fontawesome.com/f811052083.js" crossorigin="anonymous"></script>
+        
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;&display=swap');
+        </style>
+    </Head>
+    <body>
+    <div class="container">
+    <header>
+        
+<!--Nav Bar for the top right needs to be in the top right corner with the text horizontal and have a blue thin line at the top when on that page also to remove the underline from they hyper link.-->
+        <nav class="row">
+
+            <div class="logo">
+                <img src="Page_Resources/images/logo/Booki.png" Title="Booki">
+            </div>
+
+            <div class="nav-items">
+                <ul class="row">
+                    <li class="nav-link"><a href="#accommodations">Accommodations</a></li>
+                    <li class="nav-link"><a href="#activites">Activities</a></li>
+                </ul>
+            </div>
+
+        </nav>
+    </header>
+<!--The main search bar allowing you to filter the searches. Needs to have a textbox typeable, search button, and underneath this there should be a filter setting with for main buttons 'low cost, family-friendly,romantic,pets allowed'-->
+        <nav>
+            <div class="searchbar-section">
+                <div class="search-title">
+                    <h3>Find a place for your dream vacation</h3> 
+                    <p>Downtown or in nature </p>
+                </div>
+            </div>
+            <div class="searchbar-input row">
+                    <div class="search-icon"><i class="fa-solid fa-location-dot fa-xl"></i></div>
+                    <form action="SearchBar">
+                    <input type="text" class="search-input">
+                    </form>
+                    <button class="search-button">
+                        <span class="desktop">Search</span>
+                        <span class="mobile"><i class="fa-solid fa-magnifying-glass"></i></span>
+                    </button>
+                    
+            </div>
+            <div class="filters row">
+                <div class="filter-title">Filters</div>
+                <div class="filter-box row">
+                    <div class="filter-icon"><i class="fa-solid fa-money-bill-wave "></i></div>
+                    <div class="filter-text">Low cost</div>
+                </div>
+                <div class="filter-box row">
+                    <div class="filter-icon"><i class="fa-solid fa-child-reaching fa-lg"></i></div>
+                    <div class="filter-text">Family-friendly</div>
+                </div>
+                <div class="filter-box row">
+                    <div class="filter-icon"><i class="fa-solid fa-heart "></i></div>
+                    <div class="filter-text">Romantic</div>
+                </div>
+                <div class="filter-box row">
+                    <div class="filter-icon"><i class="fa-solid fa-dog "></i></div>
+                    <div class="filter-text">Pets allowed</div>
+                </div>
+            </div>
+            <div class="information row">
+                <div class="information-icon"><i class="fa-solid fa-info"></i></div>
+                <div class="information-text"><p>More than 500 accommodations are available in this city</p></div>
+            </div>
+        </nav>
+        
+    <main class="main row">
+        <!--This first article needs to the bigger one of the two this needs to be grey with rounded edges and also have buttons in the middle to allow for access to different parts of the website. The information needs to be picture, hotel name,
+        star rating 'Accommodations section'-->
+        <div id="accommodations" class="accommodations">
+            <div class="accommodations-title"><h1>Accommodations in Marseille</h1></div>
+            <div class="row">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="Page_Resources/images/hebergements/Auberge-la-Cannebiere.jpg" title="Auberge la Cannebiere" alt="Auberge la Cannebiere">
+                    </div>
+                        <div class="card-text">
+                            <h2> Auberge la Cannebiere </h2>
+                            <p> Nights starting at <strong>25€</strong></p>
+                            <div class="starwrap">
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star unchecked"></i>
+                            </div>
+                        </div>
+                </div>
+                <div class="card">
+                    <div class="card-image"><img src="Page_Resources/images/hebergements/Hotel-du-port.jpg" title="Hotel de la mer" alt="Hotel du port"></div>
+                    <div class="card-text">
+                        <h2>Hotel du port</h2>
+                        <p>Nights starting at <strong>52€</strong></p>
+                        <div class="starwrap">
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>                                 
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-image"><img src="Page_Resources/images/hebergements/Les-mouettes-Hotel.jpg" title="Les mouettes Hotel" alt="Les mouettes Hotel"></div>
+                    <div class="card-text">
+                        <h2>Les mouettes Hotel</h2>
+                        <p>Nights starting at <strong>76€</strong></p>
+                        <div class="starwrap">
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star unchecked"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="card">
+                    <div class="card-image"><img src="Page_Resources/images/hebergements/Hotel_de_le-mer.jpg" title="Hotel da la mer" alt="Hotel da la mer"></div>
+                        <div class="card-text">
+                            <h2>Hotel da la mer</h2>
+                            <p>Nights starting at <strong>46€</strong></p>
+                            <div class="starwrap">
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star unchecked"></i>
+                                <i class="fa-solid fa-star unchecked"></i>
+                            </div>
+                        </div>
+                </div>
+                <div class="card">
+                    <div class="card-image"><img src="Page_Resources/images/hebergements/Auberge-Le-Panier.jpg" title="Auberge Le Panier" alt="Auberge Le Panier"></div>
+                        <div class="card-text">
+                            <h2>Auberge Le Panier</h2>
+                            <p>Nights starting at <strong>23€</strong></p>
+                            <div class="starwrap">
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star unchecked"></i>
+                            </div>
+
+                        </div>
+                </div>
+                <div class="card">
+                    <div class="card-image"><img src="Page_Resources/images/hebergements/Hotel-chez-Amina.jpg" title="Hotel chez Amina" alt="Hotel chez Amina"></div>
+                        <div class="card-text">
+                            <h2>Hotel chez Amina</h2>
+                            <p>Nights starting at <strong>96€</strong></p>
+                            <div class="starwrap">
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                            </div>
+                        </div>
+                </div>
+            </div>
+            <div class="show-more">
+                <p><strong>Show more</strong></p>
+            </div>
+        </div>
+        <!--Same as the first box but needs to me smaller and is also the 'most popular' section-->
+        <div class="most-popular column">
+            <div class="row">
+                <div class="most-popular-title"><h1>Most Popular</h1></div>
+                <div class="most-popular-icon"><i class="fa-solid fa-star"></i></div>
+            </div>
+                <article class="card row">
+                    <div class="card-image"><img src="Page_Resources/images/hebergements/Morning-Sun-Hotel.jpg" alt="Morning Sun Hotel"></div>
+                        <div class="card-text">
+                            <h2>Morning Sun Hotel</h2>
+                            <p>Nights starting at <strong>128€</strong></p>
+                            <div class="starwrap">
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                            </div>
+                        </div>
+                </article>
+
+                <div class="card row">
+                    <div class="card-image"><img src="Page_Resources/images/hebergements/Au-coeur-de-l'eau-bed-and-breakfast.jpg" alt="Au coeur de l'eau Bed and Breakfast"></div>
+                        <div class="card-text">
+                            <h2>Au coeur de l'eau Bed and Breakfast</h2>
+                            <p>Nights starting at <strong>71€</strong></p>
+                            <div class="starwrap">
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star unchecked"></i>
+                            </div>
+                        </div>
+                </div>
+
+                <div class="card row">
+                    <div class="card-image"><img src="Page_Resources/images/hebergements/Tout-bleu-et-Blanc-Hotel.jpg" alt="Tout bleu et Blanc Hotel"></div>
+                        <div class="card-text">
+                            <h2>Tout bleu et Blanc Hotel</h2>
+                            <p>Nights starting at <strong>68€</strong></p>
+                            <div class="starwrap">
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star unchecked"></i>
+                            </div>
+                        </div>
+                </div>
+
+        </div>
+    </main>
+        <!--This part spans the bottom of the webpage and shows possible activities in teh area selected has a design one image large followed by two smaller images and it repeats-->
+        <div id="activites" class="activites">
+            <div class="activites-title">
+                <h3>Activites in Marseille</h3>
+            </div>
+        <div class="row">
+
+            <div class="column">
+            <div class="card card-xl">
+                <div class="card-image"><img src="Page_Resources/images/activites/Old_Port.jpg" alt="Old Port" ></div>
+                <div class="card-text"><p><strong>Old Port</strong></p></div>
+            </div>
+            </div>
+
+            <div class="column tablet-column">
+
+            <div class="card card-lg">
+                <div class="card-image"><img src="Page_Resources/images/activites/Pomegues_Fort.jpg" alt="Pomegues Fort"></div>
+                <div class="card-text"><p><strong>Pomegues Fort</strong></p></div>
+            </div>
+
+            <div class="card card-sm">
+                <div class="card-image"><img src="Page_Resources/images/activites/Frioul_Island.jpg" alt="Frioul Island"></div>
+                <div class="card-text"><p><strong>Frioul Island</strong></p></div>
+            </div>
+
+            </div>
+            <div class="column">
+            <div class="card card-xl">
+                <div class="card-image"><img src="Page_Resources/images/activites/Calanques_National_Park.jpg" alt="Calanques National Park"></div>
+                <div class="card-text"><p><strong>Calanques National Park</strong></p></div>
+            </div>
+            </div>
+
+            <div class="column tablet-column">
+
+            <div class="card card-md">
+                <div class="card-image"><img src="Page_Resources/images/activites/Notre-Dame-de-la-Garde.jpg" alt="Notre-Dame-de-la-Garde"></div>
+                <div class="card-text"><p><strong>Notre-Dame-de-la-Garde</strong></p></div>
+            </div>
+            <div class="card card-md">
+                <div class="card-image"><img src="Page_Resources/images/activites/Longchamp_Park.jpg" alt="Longchamp Park"></div>
+                <div class="card-text"><p><strong>Longchamp Park</strong></p></div>
+            </div>
+            </div>
+
+        </div>
+        </div>
+    </div>  
+        <!--This is the bottom of the screen this needs to be grey and split into three different sections 'About' 'Our Accommodations' 'Assistance'-->
+    <footer>
+        <div class="container">
+            <nav class="bottom-nav row">
+                
+                <div>
+                    <h3>About</h3>
+                    <ul class="bottom-list">
+                        <li>Site Map</li>
+                        <li>General Teams and Conditions</li>
+                        <li>Data and Privacy</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3>Our Accommodations</h3>
+                    <ul class="bottom-list">
+                        <li>Quality Assessment</li>
+                        <li>You have a hotel?</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3>Assistance</h3> 
+                    <ul class="bottom-list">
+                        <li>Help Desk</li>
+                        <li>Contact us</li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </footer>
+        
+    </body>
+</html>
